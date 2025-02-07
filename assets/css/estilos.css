@@ -1,0 +1,210 @@
+/* Estilos da minha pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+}
+
+/*---------- geral--------------*/
+
+.text-center {
+    text-align: center;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+/*---------- ------------*/
+.container-cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: #04233f;
+
+}
+
+.container-cabecalho h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: blanchedalmond;
+}
+
+/*---------- ------------*/
+.container-navegacao {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(212, 189, 154);
+}
+
+.container-navegacao a {
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+.container-navegacao a:hover {
+
+    color: white;
+}
+
+  .container-quem-somos {
+    background-color: #04233f;
+    overflow: auto;
+  }
+
+  .container-quem-somos .servico{
+   float: center;
+   margin: 60px auto;
+   background-color: #204e77;
+   width: 50%;
+   padding: 50px;
+   border-radius: 10px;
+   text-align: center;
+  }
+
+
+  .container-quem-somos .servico .icone{
+    margin-bottom: 10px;
+
+   }
+
+   .container-quem-somos .servico-texto{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: rgb(198, 198, 243);
+   }
+
+   .container-quem-somos .servico-texto-realce {
+    color: aliceblue;
+    font-weight: bold;
+
+   }
+ 
+
+
+ footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #204e77;
+    color: aliceblue;
+ }
+
+
+.container-servico-contatos {
+    background-color: #49769d;
+    padding: 80px;
+    text-align: center;
+}
+
+.container-servico-contatos .botoes-servico-contatos{
+    padding: 60px;
+    text-align: center;
+}
+
+.botoes-servico-contatos a {
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: rgb(113, 184, 184);
+    color: azure;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.botoes-servico-contatos a:hover {
+    background-color: white;
+    color: #04233f;
+}
+
+
+
+
+/*------------------------*/
+
+.container-servico {
+    padding: 60px;
+    font-size: 1.1em;
+    overflow: auto;
+    background-color: #799dbd;
+}
+
+
+.container-servico h1{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.container-servico h3{
+    color: #022442 ;
+    padding: 10px 0;
+}
+
+
+.container-servico article{
+    width: 40%;
+    margin: auto;
+    text-align: center
+}
+
+.container-servico li{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+
+
+/*------------------------*/
+
+.container-contato{
+    background-color: #04233f;
+    padding: 80px;
+}
+
+.container-contato h1{
+    font-size: 3em;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.container-contato h3{
+  font-size: 1.5em;
+  font-weight: 100;
+  width: 40%;
+  margin: auto;
+  color: azure;
+  margin-bottom: 20px;
+  border: 1px solid burlywood;
+  background-color: #49769d;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+.container-contato .contato{
+ display: block;
+ font-size: 2em;
+ text-decoration: none;
+ color: #799dbd;
+ margin-bottom: 20px;
+}
+.container-contato .contato:hover{
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    color: #218cea;
+    margin-bottom: 20px;
+   }
+
